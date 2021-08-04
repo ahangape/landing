@@ -116,6 +116,7 @@ ul {
 .paragraph {
     font-size: 1.6rem;
     line-height: 3rem;
+    text-align: right;
 }
 
 .paragraph.dark {
@@ -1738,26 +1739,31 @@ body.loaded .preloader {
 }
 
 .hero .main-heading {
-    font-size: 7rem;
+    font-size: 4rem;
     font-weight: 600;
     color: #000;
-    font-family: "Aviny";
+    font-family: "Iran Yekan bold";
     _letter-spacing: -0.4rem;
     width: 100%;
-    text-align: center;
+    text-align: right;
 }
 
 .hero .paragraph {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 4rem;
     color: #474b4c;
     text-align: right;
     margin: 3.6rem 0 3.5rem 0;
     direction: rtl;
+    font-family: "Iran Yekan Light";
 }
 
 .hero .paragraph span {
     font-weight: 700;
+}
+
+.hero .download-buttons {
+    text-align: right;
 }
 
 .hero .download-buttons a {
@@ -1767,7 +1773,7 @@ body.loaded .preloader {
 }
 
 .hero .download-buttons a:last-child {
-    _margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 1rem;
 }
 
@@ -2323,7 +2329,9 @@ body.loaded .preloader {
 .growth__box .content h3 {
     font-size: 2.2rem;
     font-weight: 600;
-    width: 80%;
+    /* width: 80%; */
+    text-align: right;
+    direction: rtl;
 }
 
 .growth__box:hover .icon {
