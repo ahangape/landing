@@ -1412,7 +1412,6 @@ section.new-header .container .illustration-container img {
 
 #how-to-download .wrapper-slider .container-slider-description {
     border-radius: 0 40px 40px 0;
-    /* background: #f7f8f7; */
     padding: 30px 30px 30px 0;
     display: flex;
     align-items: center;
@@ -1470,7 +1469,6 @@ section.new-header .container .illustration-container img {
 
 #feature-app:before {
     background: transparent;
-    /* background: #00bcd433; */
     top: -3.5%;
 }
 
@@ -1484,11 +1482,7 @@ section.new-header .container .illustration-container img {
     position: absolute;
 }
 
-#feature-app:after {
-    /* background: transparent; */
-    /* background: #00bcd440; */
-    /* bottom: -3.5%; */
-}
+#feature-app:after {}
 
 #feature-app .wrapper-feature-app {
     width: 100%;
@@ -2545,9 +2539,7 @@ section.new-header .container .illustration-container img {
     section.new-header .container .title .sub-title {
         line-height: 1.5;
     }
-    section.new-header .container .illustration-container {
-        /* margin: -30px 0; */
-    }
+    section.new-header .container .illustration-container {}
     section.new-header .container .download-link-container {
         padding-top: 0 !important;
     }
@@ -2659,10 +2651,8 @@ section.new-header .container .illustration-container img {
     }
     #feature-app {
         display: block;
-        background: #00bcd4;
+        background: #008596;
         background: -moz-linear-gradient(45deg, #c56cd6 0, #1c00ff 100%);
-        background: -webkit-linear-gradient(45deg, #00bcd4, #4caf50);
-        background: linear-gradient(45deg, #03a9f47a, #00bcd4);
         filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#c56cd6", endColorstr="#1c00ff", GradientType=1);
         height: auto;
         padding-bottom: 30px;
