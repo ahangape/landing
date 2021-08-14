@@ -1127,7 +1127,8 @@ section.new-header .container .small-device-logo {
     width: 100%;
     text-align: center;
     margin: -5% 0 -10px;
-    background-color: hsl(187deg 100% 42% / 20%);
+    _background-color: hsl(187deg 100% 42% / 20%);
+    background-color: #3a3a3a;
 }
 
 section.new-header .container .small-device-logo img {
